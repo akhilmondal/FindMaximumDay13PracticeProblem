@@ -26,5 +26,9 @@ public class FindMaximum<T extends Comparable> {
         System.out.println("Maximum number: " + maxFloat.findMax(40f, 30f, 10f));
         System.out.println("Maximum number: " + maxFloat.findMax(40f, 20f, 50f));
         System.out.println("Maximum number: " + maxFloat.findMax(50f, 40f, 30f));
+        FindMaximum<String> maxString = new FindMaximum<>();  //Creating object with String generics.
+        System.out.println("Maximum String: " + maxString.findMax("Akhil", "Pooja", "Farzi"));
+        System.out.println("Maximum String: " + maxString.findMax("Dhinchak", "Akhil", "Microsoft"));
+        System.out.println("Maximum String: " + maxString.findMax("Apple", "Nokia", "Akhil"));
     }
 }
